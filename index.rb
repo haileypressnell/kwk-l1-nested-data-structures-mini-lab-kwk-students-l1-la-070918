@@ -7,7 +7,9 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  if ingredients.include? = order
+  if ingredients.include?(order) = true
+    return true
+  end 
 end
 
 # example city_info hash
