@@ -7,7 +7,7 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  if ingredients == ingredients[]
+  if 
     
 
 # example city_info hash
