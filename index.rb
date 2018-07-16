@@ -7,15 +7,8 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  count = 0
-  sandwich_request.each do |ingredient, orders|
-    ingredient = ingredients
-    orders = count
-    count += 1 
-    puts "#{ingredient} #{orders}"
-  end 
-end 
-  puts sandwich_request(ingredients, order)
+  if ingredients == ingredients[]
+    
 
 # example city_info hash
 cities = {
