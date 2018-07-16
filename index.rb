@@ -9,6 +9,7 @@ ingredients = [
 def sandwich_request(ingredients, order) 
   count = 0
   sandwich_request.each do |ingredient, orders|
+    ingredient = ingredients
     count += 1 
 
 # example city_info hash
