@@ -7,14 +7,8 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  order.each do |ingredient|
-    if 
-  if ingredients.include?(order) 
-    return true
-  else 
-    return false
-  end 
-end
+  sandwich_request.each do |ingredient, orders|
+    
 
 # example city_info hash
 cities = {
