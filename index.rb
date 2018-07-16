@@ -7,7 +7,7 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  if ingredients.include?(order) = true
+  if ingredients.include?(order) == true
     return true
   end 
 end
