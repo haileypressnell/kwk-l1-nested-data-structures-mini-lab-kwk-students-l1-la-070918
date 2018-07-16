@@ -12,7 +12,9 @@ def sandwich_request(ingredients, order)
     ingredient = ingredients
     orders = count
     count += 1 
+    puts "#{ingredient} #{orders}"
   end 
+  puts sandwich_request(ingredients, order)
 
 # example city_info hash
 cities = {
